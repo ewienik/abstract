@@ -1,0 +1,5 @@
+Checks:          ',-*,clang*,bugprone*,cppcoreguidelines*,-cppcoreguidelines-avoid-magic-numbers,misc*,modernize*,performance*,readability*,-readability-magic-numbers'
+WarningsAsErrors: 'true'
+HeaderFilterRegex: 'anyabstract.h'
+AnalyzeTemporaryDtors: true
+FormatStyle:     file
